@@ -1,11 +1,11 @@
 frontend:
   image: poisonsky/frontend
-  tag: dea2362
+  tag: 54f632f
   autoscaling:
     averageUtilization: 80
 backend:
   image: poisonsky/backend
-  tag: dea2362
+  tag: 54f632f
   autoscaling:
     averageUtilization: 80
 database:
