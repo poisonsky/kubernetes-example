@@ -4,7 +4,7 @@ frontend:
   autoscaling:
     averageUtilization: 80
 backend:
-  image: poisnsky/backend
+  image: poisonsky/backend
   tag: dea2362
   autoscaling:
     averageUtilization: 80
