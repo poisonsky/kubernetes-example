@@ -2,12 +2,12 @@ frontend:
   image: poisonsky/frontend
   tag: latest
   autoscaling:
-    averageUtilization: 90
+    averageUtilization: 80
 backend:
   image: poisnsky/backend
   tag: latest
   autoscaling:
-    averageUtilization: 90
+    averageUtilization: 80
 database:
   enabled: true
   uri: pg-service
