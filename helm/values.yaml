@@ -1,11 +1,11 @@
 frontend:
   image: poisonsky/frontend
-  tag: latest
+  tag: dea2362
   autoscaling:
     averageUtilization: 80
 backend:
   image: poisnsky/backend
-  tag: latest
+  tag: dea2362
   autoscaling:
     averageUtilization: 80
 database:
@@ -13,4 +13,3 @@ database:
   uri: pg-service
   username: postgres
   password: postgres
-  
